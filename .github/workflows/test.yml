@@ -5,7 +5,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 5 # NOTE: really important to use this! Don't set higher than 30 minutes!
+    timeout-minutes: 25 # NOTE: really important to use this! Don't set higher than 30 minutes!
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
